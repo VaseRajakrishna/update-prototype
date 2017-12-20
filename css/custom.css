@@ -1,0 +1,236 @@
+*{
+    padding: 0px;
+margin: 0px;}
+body{
+    width: 100%;
+    height:auto;
+    font-family: Noto Sans;
+    background-image: url(../pics/BackgroundTexture.png);
+}
+h1, h2,h3,h4{
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+h4, p{
+    line-height: 25px;
+}
+.r1-container{
+    padding: 5% 1% 5% 1%;
+}
+.r4-container{
+    width: 120%;
+    margin-left: -6em;
+}
+.head-content{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 1px -3px 15px 2px rgba(0, 0, 0, 0.78);
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    min-height: 70px;
+    background-color: #fafafa;
+  }
+  .panel-body{
+      padding: 5px;
+  }
+  .main-content{
+    width: 65%;
+    margin: auto;
+    background: #fff;
+    margin-top: -4em;
+    position: relative;
+  }
+  .links-container li{
+    list-style: none;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .panel-content{
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  /* .panel-content .panel-header{
+    margin-top: -50px;
+  } */
+  .panel-group .panel{
+      margin-bottom: 15px;
+      box-shadow: 1px 0px 5px rgba(1, 1, 1, 0.51);
+  }
+  .remove-bgs{
+      box-shadow: none !important;
+      background: none !important;
+      border: none !important;
+  }
+  .panel-header{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    background-image: linear-gradient(to top, #004ba8 0%, #0090df 100%);
+    color: #fff;
+    margin: 0 auto;
+    font-size: 45px;
+    line-height: 80px;
+    box-shadow: 0px 0px 9px 3px rgba(4, 0, 0, 0.09);
+  }
+  .r7-container .panel-group{
+      text-align: center;
+  }
+  .search-container {
+    margin-top: 12px;
+}
+
+input[type=text] {
+    width: 90%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ededed;
+    background-image: url(searchicon.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    transition: all .25s ease-in-out;
+}
+input:focus{
+    box-shadow: 0px 0px 3px 3px #0f4c8f40;
+    border: none;
+    outline: none;
+    background: #ffffff;
+}
+
+.section-content {
+    width: 100%;
+    height: auto;
+    background: #cccccc75 url(../pics/BackgroundTexture.png);
+}
+.carousel-caption{
+    top:25%;
+}
+.carousel-caption h1{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.carousel-caption h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btn-container{
+    padding: 3% 0% 3% 0%;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border:none;
+    background: #fafafa;
+}
+.carousel-indicators .active{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    background-color: #9ac106;
+}
+.carousel-indicators{
+    bottom:30%
+}
+h2{
+    color:#165694
+}
+.panel-group{
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.panel-group .panel+.panel {
+    margin-top: 0px;
+}
+.panel-body h3{
+    line-height: 25px;
+    font-size: 18px;
+}
+.panel-inst{
+    width: 75%;
+    margin: auto;
+}
+.last-element{
+    padding-right:0px;
+}
+.panel-body h4{
+    font-size: 15px;
+}
+.footer-content{
+    width: 100%;
+    height: auto;
+    background-color: #165694;
+    color: #FFF;
+    padding: 6% 0% 7% 0%;
+    
+}
+.footer-content h3{
+    color: #fff;
+}
+.slider-btn, .sign-up{
+    padding: 17px 55px 15px 55px;
+    outline: none;
+    background: #9ac106;
+    border: none;
+    border-radius: 0px;
+    transition: all .25s ease-in-out;
+}
+.sign-up:hover,
+.slider-btn:hover{
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.28);
+}
+.entry-feild input[type=text]{
+    width: 100%;
+    border-radius: 0;
+    background: #ffffff;
+    color: #170f0f;
+    margin-bottom: 10px;
+}
+.entry-feild{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media screen and (max-width:480px) {
+    .carousel-caption h1, h3{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .carousel-caption{
+        top: 20%;
+    }
+    .slider-btn{
+        padding: 14px 50px 14px 50px;
+    }
+}
+@media screen and (max-width:767px) {
+    .carousel-caption h1{
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .carousel-indicators{
+        top:10%;
+    }
+}
