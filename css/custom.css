@@ -11,18 +11,34 @@ h1, h2,h3,h4{
     margin-top: 15px;
     margin-bottom:15px;
 }
+p{
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 580;
+    font-size: 16px;
+    text-shadow: 0px 0px 0px rgb(0, 0, 0);
+}
 h4, p{
     line-height: 25px;
 }
 .r1-container{
     padding: 5% 1% 5% 1%;
 }
+.r2-container{
+    width: 120%;
+    margin-left: -5.5em;
+}
+.r3-container{
+    clear: both;
+    padding: 8% 1% 10% 1%;
+}
 .r4-container{
     width: 120%;
     margin-left: -5.4em;
 }
 a{ color: #008ddc;
-text-decoration: underline;}
+text-decoration: underline;
+font-size: 13px;}
 .head-content{
     position: fixed;
     width: 100%;
@@ -60,7 +76,9 @@ text-decoration: underline;}
   } */
   .panel-group .panel{
       margin-bottom: 15px;
-      box-shadow: 1px 0px 5px rgba(1, 1, 1, 0.51);
+      box-shadow: 0px 2px 9px 4px rgba(0, 0, 0, 0.14);
+      border-radius: 0px;
+      border-color: rgba(255, 255, 255, 0);
   }
   .remove-bgs{
       box-shadow: none !important;
@@ -117,7 +135,7 @@ input:focus{
 }
 .carousel-caption h1{
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     font-size: 50px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -145,8 +163,14 @@ input:focus{
 .carousel-indicators{
     bottom:30%
 }
+.links-container{
+    padding-bottom: 20px;
+}
 h2{
-    color:#165694
+    color: #195b9a;
+    font-weight:  bold;
+    font-size: 26px;
+    letter-spacing: 1.8px;
 }
 .panel-group{
     margin-bottom: 20px;
@@ -159,6 +183,8 @@ h2{
 .panel-body h3{
     line-height: 25px;
     font-size: 18px;
+    font-weight: bold;
+    color: #888787;
 }
 .panel-inst{
     width: 75%;
@@ -177,7 +203,7 @@ h2{
 .footer-content{
     width: 100%;
     height: auto;
-    background-color: #165694;
+    background-color: #0b346c;
     color: #FFF;
     padding: 6% 0% 7% 0%;
     
@@ -185,11 +211,13 @@ h2{
 .footer-content h3{
     color: #fff;
 }
+button,
 .slider-btn, .sign-up{
     padding: 17px 55px 15px 55px;
     outline: none;
     background: #9ac106;
     border: none;
+    color: #fff;    
     border-radius: 0px;
     transition: all .25s ease-in-out;
 }
@@ -207,6 +235,48 @@ h2{
 .entry-feild{
     padding-left: 0px;
     padding-right: 0px;
+}
+.big-bg{
+    width: 110%;
+    background: antiquewhite;
+    background: linear-gradient(rgba(11, 52, 108, 0.6), rgba(11, 52, 108, 0.6)), url(../pics/s3.png);
+}
+.sml-bg{
+    width: 94%;
+    background: #daa155;
+    background: linear-gradient(rgba(11, 52, 108, 0.6), rgba(11, 52, 108, 0.6)),url(../pics/bg1.png);
+    background-size: 100%;
+    margin-left: 25px;
+}
+.box-content{
+    width: 85%;
+    padding: 35% 0% 25% 20%;
+}
+.sm-box-content{
+    width: 68%;
+    padding-top: 5%;
+    padding-left: 9%;
+    height: 210px;
+}
+.smlbg-btn{
+    margin-top: 18px
+}
+.smbtm-box{
+    margin-top: 55px;
+    background:linear-gradient(rgba(11, 52, 108, 0.6), rgba(11, 52, 108, 0.6)), url(../pics/bg2.png);
+    background-size: 100%;
+}
+.smbtm-box-content{
+    width: 60%;
+}
+.sm-box-content h2,
+.box-content h2{
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.fcontent p{
+    color:#fff;
 }
 @media screen and (max-width:480px) {
     .carousel-caption h1, h3{
