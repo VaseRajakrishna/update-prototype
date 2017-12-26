@@ -292,6 +292,9 @@ button,
 .fcontent p{
     color:#fff;
 }
+.w-100{
+    width:100%;
+}
 @media screen and (max-width:480px) {
     .carousel-caption h1, h3{
         font-size: 20px;
