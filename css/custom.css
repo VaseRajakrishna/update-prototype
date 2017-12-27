@@ -48,6 +48,14 @@ h4, p{
 .r5-container h2, .r5-container p{
     color:#ffffff;
 }
+.r6-container{
+    width: 90%;
+    margin: auto;
+}
+.r8-container{
+    padding: 0% 1% 5% 1%;
+    margin-top: -2em;
+}
 a{ color: #008ddc;
 text-decoration: underline;
 font-size: 13px;}
@@ -171,6 +179,7 @@ input:focus{
     height: 15px;
     margin: 0;
     background-color: #9ac106;
+    border: 1px solid #9ac106;
 }
 .carousel-indicators{
     bottom:30%
@@ -234,9 +243,10 @@ button,
     border-radius: 0px;
     transition: all .25s ease-in-out;
 }
-.sign-up:hover,
+.sign-up:hover,button:hover,
 .slider-btn:hover{
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.28);
+    /* box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.28); */
+    box-shadow: 1px 0px 20px 1px rgba(107, 109, 100, 0.65);
 }
 .entry-feild input[type=text]{
     width: 100%;
@@ -295,7 +305,70 @@ button,
 }
 .w-100{
     width:100%;
+margin: auto;
 }
+.img-btn{
+    width: 90%;
+    margin: auto;
+}
+.download-btn{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.remove-margin{
+    margin-left:0px;
+    margin-right: 0px;
+}
+
+.move-top{
+    top: -150px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.sm-slider-btn{ 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    padding: 0px;
+    position: relative;
+    top: -76px;
+    left: -60px;
+    z-index: 999;
+    font-size: 35px;
+    transition: all .15s ease-in-out;
+}
+.sm-slider-btn:hover{
+    box-shadow: 1px 0px 20px 1px rgba(255, 255, 255, 0.7);
+}
+.sm-slider-right-btn{
+    left: 60px;
+    float: right;
+}
+.sm-indicators{
+    bottom: 20%;
+}
+.sm-indicators li{
+    width: 8px;
+    height: 8px;
+    background: #9e9e9e;
+}
+.sm-indicators .active{
+    width: 10px;
+    height: 10px;
+    background: #0f0f0f;
+}
+.item-bg{
+   background: #020425; 
+}
+.item-bg img{
+    opacity: 0.2;
+}
+
 @media screen and (max-width:480px) {
     .carousel-caption h1, h3{
         font-size: 20px;
